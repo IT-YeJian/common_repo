@@ -1,0 +1,40 @@
+{
+  "groups": [
+    {
+      "name": "ehcache",
+      "type": "com.yejian.cache.ehcache.props.EhcacheProperties",
+      "sourceType": "com.yejian.cache.ehcache.props.EhcacheProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "ehcache.cache-names",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "com.yejian.cache.ehcache.props.EhcacheProperties"
+    },
+    {
+      "name": "ehcache.disk",
+      "type": "java.lang.Integer",
+      "sourceType": "com.yejian.cache.ehcache.props.EhcacheProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "ehcache.disk-dir",
+      "type": "java.lang.String",
+      "sourceType": "com.yejian.cache.ehcache.props.EhcacheProperties"
+    },
+    {
+      "name": "ehcache.heap",
+      "type": "java.lang.Integer",
+      "sourceType": "com.yejian.cache.ehcache.props.EhcacheProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "ehcache.off-heap",
+      "type": "java.lang.Integer",
+      "sourceType": "com.yejian.cache.ehcache.props.EhcacheProperties",
+      "defaultValue": 0
+    }
+  ],
+  "hints": []
+}
